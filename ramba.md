@@ -18,3 +18,9 @@ and
 
 sudo apt update
 ```
+
+```
+Tuer un procesus kibana s'il a étéb ajouté depuis le path
+faire : ps -ef | grep '.*node/bin/node.*src/cli'   #une ligne est retournée avec 6 chiffre au debut 
+faire : kill -9 les 6 chiffre # exemple kill -9 124578
+```
